@@ -1,4 +1,4 @@
-fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=4ebdbe53c433400287cbe4c71b486a93').
+fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey={apiKey}').
 then((response) => response.json()).then((data) => displayNews(data))
 
 
